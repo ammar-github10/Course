@@ -1,0 +1,102 @@
+What is Cloud Computing?
+
+It is the use of remote servers on the internet to store, manage and process 
+data rather than a local server or personal computer.
+
+--> Storing data/applications on remote servers 
+--> Processing Data/applications from Servers 
+--> Accessing data/applications through internet.
+
+What is AWS?
+
+AWS stands for Amazon Web Services.
+
+->The AWS service is provided by the Amazon that uses distributed IT infrastructure to provide different IT
+resources available on demand. It provides different services such as infrastructure as a service (IaaS),
+platform as a service (PaaS) and packaged software as a service (SaaS).
+
+->Amazon launched AWS, a cloud computing platform to allow the different organizations to take advantage
+of reliable IT infrastructure.
+
+USES OF AWS
+
+->A small manufacturing organization uses their expertise to expand their business by leaving their IT
+management to the AWS.
+
+->A large enterprise spread across the globe can utilize the AWS to deliver the training to the distributed
+workforce.
+
+->An architecture consulting company can use AWS to get the high-compute rendering of construction
+prototype.
+
+-> A media company can use the AWS to provide different types of content such as ebox or audio files to the
+worldwide files.
+
+        
+why aws become more powerful than any onther cloud services
+
+-> AWS is the first cloud based service came before 7 years than anyother services .
+-> AWS has many unique services
+-> Pricing model -> Pay as u go 
+
+Advantages
+
+-> Cost effective
+-> Flexibility
+-> Scalability
+-> Security
+
+Different Domains that AWS offers :-
+
+->Compute
+It is used to process data on the cloud by making use of powerful processors which serve multiple instances
+at a time.
+
+->Storage and Content Delivery
+The storage as the name suggests, is used to store data in the cloud, this data can be stored anywhere but
+content delivery on the other hand is used to cache data nearer to the user so as to provide low latency.
+
+->Database
+The database domain is used to provide reliable relational and non-relational database instances managed
+by AWS.
+
+->Networking
+It includes services which provide a variety of networking features such as security, faster access etc.
+
+->Management Tools
+It includes services which can be used to manage and monitor your AWS instances.
+
+->Security and Identity
+It includes services for user authentication or limiting access to a certain set of audience on your AWS
+resources.
+
+->Application Services
+It includes simple services like notifications, emailing and queuing.
+
+
+AWS Architecture
+
+AWS Global Infrastructure
+
+Regions:-
+
+->AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. 
+->We call each group of logical data centers an Availability Zone. 
+->Each AWS Region consists of multiple, isolated, and physically separate AZs within a geographic area. 
+->Unlike other cloud providers, who often define a region as a single data center, the multiple AZ design of every AWS Region offers advantages for customers. 
+->Each AZ has independent power, cooling, and physical security and is connected via redundant, ultra-low-latency networks. 
+->AWS customers focused on high availability can design their applications to run in multiple AZs to achieve even greater fault-tolerance. 
+->AWS infrastructure Regions meet the highest levels of security, compliance, and data protection.
+->AWS provides a more extensive global footprint than any other cloud provider, and to support its global footprint and ensure customers are served across the world,
+->AWS opens new Regions rapidly. AWS maintains multiple geographic Regions, including Regions in North America, South America, Europe, China, Asia Pacific, South Africa, and the Middle East.
+
+Availability Zone:-
+
+->An Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region.
+->AZs give customers the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center. 
+->All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput, low-latency networking between AZs.
+->All traffic between AZs is encrypted. 
+->The network performance is sufficient to accomplish synchronous replication between AZs.
+->AZs make partitioning applications for high availability easy. 
+->If an application is partitioned across AZs, companies are better isolated and protected from issues such as power outages, lightning strikes, tornadoes, earthquakes, and more. 
+->AZs are physically separated by a meaningful distance, many kilometers, from any other AZ, although all are within 100 km (60 miles) of each other.
