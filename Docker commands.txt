@@ -1,0 +1,17 @@
+1) To see version 
+docker --version
+
+2)Shows server & client
+docker version   
+
+3)Installing mysql
+docker run --detach 
+--env MYSQL_ROOT_PASSWORD=dummypassword 
+--env MYSQL_USER=courses-user
+--env MYSQL_PASSWORD=dummycourses 
+--env MYSQL_DATABASE=courses 
+--name mysql 
+--publish 3306:3306 mysql:5.7
+
+4)To List out all containers which are running
+docker container ls
