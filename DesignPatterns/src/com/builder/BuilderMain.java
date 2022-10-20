@@ -1,0 +1,20 @@
+package com.builder;
+
+public class BuilderMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		Vehicle car=new Vehicle.VehicleBuilder("1500cc", 4).setAirbags(4).build();
+		Vehicle bike= new Vehicle.VehicleBuilder("300cc",2).build();
+		
+		System.out.println(car.getEngine());
+		System.out.println(car.getWheel());
+		System.out.println(car.getAirbags());
+		
+		System.out.println(bike.getEngine());
+		System.out.println(bike.getWheel());
+		System.out.println(bike.getAirbags());
+
+	}
+
+}
